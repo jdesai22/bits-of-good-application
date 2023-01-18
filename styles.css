@@ -1,3 +1,118 @@
 /* Your Styles Here */
 body{
+    background-color: #1F2933;
+    align-items: center;
+}
+
+.master-info {
+    position: relative;
+}
+
+.general-info {
+    z-index: 5;
+    background-color: #52606D;
+}
+
+.info {
+    position: absolute;
+    /*border: 2px solid black;*/
+    border-radius: 5%;
+    width: 40%;
+    height: 20vw;
+    margin-left: 30%;
+    margin-top: 2vw;
+    align-items: center;
+    transition:             margin-top 500ms ease;
+        -moz-transition:    margin-top 500ms ease;
+        -ms-transition:     margin-top 500ms ease;
+        -o-transition:      margin-top 500ms ease;
+        -webkit-transition: margin-top 500ms ease;
+}
+
+.profile-image {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 2vw;
+    width: 17%;
+    
+    /*border: 2px solid black;*/
+
+}
+
+.profile-image img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.profile-basic-info {
+    display: inline-block;
+    margin-left: 5%;
+    width: 65%;
+    /* margin-top: 2vw; */
+    line-height: 0%;
+    /*border: 2px solid black;*/
+}
+
+.name {
+    font-size: 3em;
+    color: #E4E7EB;
+}
+
+.small-facts {
+    margin-bottom: 2%;
+    font-size: 1em;
+    color: #E4E7EB;
+}
+
+.profile-additional-info {
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 0%;
+    color: #CED2D6;
+    /*border: 2px solid black;*/
+}
+
+.info-paragraph {
+    margin: 0 0 0 0;
+}
+
+.see-more-btn {
+    /*border: 2px solid black;*/
+    z-index: 9;
+    width: 5%;
+    height: 10%;
+    margin-left: 92%;
+    margin-top: 20%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#arrow {
+    margin: 0 0 0 0;
+    font-size:1em;
+    font-weight: bold;
+}
+
+.fun-facts {
+    z-index: 2;
+    position: absolute;
+    /*border: 2px solid black;*/
+    background-color: #9AA5B1;
+    margin-top: 2.5vw;
+    transition:             margin-top 500ms ease;
+        -moz-transition:    margin-top 500ms ease;
+        -ms-transition:     margin-top 500ms ease;
+        -o-transition:      margin-top 500ms ease;
+        -webkit-transition: margin-top 500ms ease;
+
+}
+
+.fun-fact-info {
+    width: 90%;
+    color: #323F4B;
 }
